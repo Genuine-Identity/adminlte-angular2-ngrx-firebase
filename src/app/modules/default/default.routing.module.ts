@@ -5,13 +5,14 @@ import { LoginComponent } from './login/component/login.component';
 import { TermsAndConditionsComponent } from './terms-and-conditions/component/terms-and-conditions.component';
 
 import { DefaultComponent } from './default.component';
+import { UnderConstructionComponent } from './Under-Construction/component/login.component';
 
 const routes: Routes = [
   {
     path: '',
     component: DefaultComponent,
     children: [
-      { path: '', component: LoginComponent, },
+      { path: '', component: UnderConstructionComponent, },
       { path: 'login', component: LoginComponent, },
       { path: 'terms-and-conditions', component: TermsAndConditionsComponent, },
     ]

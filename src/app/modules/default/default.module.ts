@@ -6,7 +6,7 @@ import { DefaultRoutingModule } from './default.routing.module';
 import { LoginComponent } from './login/component/login.component';
 import { DefaultComponent } from './default.component';
 import { TermsAndConditionsComponent } from './terms-and-conditions/component/terms-and-conditions.component';
-import { UnderConstructionComponent } from './under-construction/component/under-construction/under-construction.component';
+import { UnderConstructionComponent } from './under-construction/under-construction.component';
 @NgModule({
   imports: [
     CommonModule,

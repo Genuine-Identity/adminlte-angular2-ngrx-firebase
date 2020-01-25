@@ -30,7 +30,6 @@
     "angularfire2": "5.3.0",
     "bootstrap": "4.4.1",
     "chart.js": "2.9.3",
-    "core-js": "^3.6.4",
     "firebase": "7.7.0",
     "ionicons": "4.6.3",
     "jquery": "3.4.1",

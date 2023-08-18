@@ -12,8 +12,8 @@ const routes: Routes = [
     path: '',
     component: DefaultComponent,
     children: [
-      { path: '', component: UnderConstructionComponent, },
-      { path: 'login', component: UnderConstructionComponent, },
+      { path: '', component: LoginComponent, },
+      { path: 'login', component: LoginComponent, },
       { path: 'terms-and-conditions', component: TermsAndConditionsComponent, },
     ]
   }
